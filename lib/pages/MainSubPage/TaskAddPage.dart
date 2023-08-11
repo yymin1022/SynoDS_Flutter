@@ -6,15 +6,15 @@ class TaskAddPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return(
-        const Scaffold(
-            body: (
-                SafeArea(
-                    child: (
-                        Text("Task Add Page")
-                    )
-                )
+      const Scaffold(
+        body: (
+          SafeArea(
+            child: (
+              Text("Task Add Page")
             )
+          )
         )
+      )
     );
   }
 }
